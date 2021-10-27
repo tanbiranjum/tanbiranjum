@@ -14,6 +14,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* HEADER SECION */
+
 #heading {
     color: #444;
 }
@@ -32,9 +34,16 @@ body {
 
 .header__para {
     font-size: 1.5rem;
+    color: rgb(100, 100, 100);
 }
 
 #header > * {
     margin-left: 5rem;
     padding: 0.5rem;
+}
+
+/* MAIN SECTION */
+
+.info {
+    display: flex;
 }
