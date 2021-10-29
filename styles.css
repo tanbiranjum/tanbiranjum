@@ -1,5 +1,6 @@
 :root {
   --font-color--primary: #444;
+  --font-family-primary: 'Zen Antique', serif;
 }
 
 *,
@@ -15,6 +16,7 @@ html {
 
 body {
   box-sizing: border-box;
+  font-family: var(--font-family-primary);
 }
 
 /* HEADER SECION */
