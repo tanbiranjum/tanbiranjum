@@ -126,3 +126,18 @@ body {
   position: absolute;
   height: 100%;
 }
+
+
+/* footer */
+.footer {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer__title {
+  font-size: 1.5rem;
+}
+
+.footer__credit {
+  font-size: 2rem;
+}
