@@ -1,6 +1,7 @@
 :root {
   --font-color--primary: #444;
   --font-family-primary: 'Space Mono', monospace;
+  /* color-scheme: light dark; */
 }
 
 *,
@@ -26,12 +27,30 @@ body {
   width: 90%;
   margin: 0 auto;
   padding-top: 5rem;
+  position: relative;
+  color: var(--font-color--primary);
+}
+
+.dark-mode {
+  position: absolute;
+  top: 5%;
+  left: 80%;
+}
+
+.dark-mode__title {
+  font-size: 1.5rem;
+}
+
+.dark-mode__btn {
+  border: 1px solid #444;
+  padding: 0 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
 }
 
 /* HEADER SECION */
 
 #header {
-  color: var(--font-color--primary);
   width: 90%;
   margin: 0 auto;
 }
@@ -49,7 +68,6 @@ body {
 
 .header__para {
   font-size: 1.5rem;
-  color: rgb(100, 100, 100);
 }
 
 #header > * {
@@ -64,7 +82,6 @@ body {
   width: 90%;
   margin: 0 auto;
   margin-top: 10rem;
-  color: var(--font-color--primary);
 }
 
 .info > * {
@@ -91,7 +108,7 @@ body {
   text-decoration: none;
   font-weight: 700;
   font-size: 1.5rem;
-  color: #1B9AAA;
+  color: #1b9aaa;
   padding: 0.5rem 0;
 }
 
@@ -131,13 +148,12 @@ body {
 .contact {
   width: 90%;
   margin: 0 auto;
-  color: #444;
   padding-top: 3rem;
 }
 
 .contact__title {
   font-size: 2rem;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
 
 .contact__list {
@@ -147,7 +163,7 @@ body {
 
 .contact__link {
   text-decoration: none;
-  color: #1B9AAA;
+  color: #1b9aaa;
 }
 
 /* footer */
