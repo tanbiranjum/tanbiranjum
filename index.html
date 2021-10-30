@@ -6,40 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/svg+xml" href="logo.svg" />
     <title>Hello world!</title>
   </head>
   <body>
-    <header id="header">
-      <h1 class="header__primary">Tanbir Anjum</h1>
-      <h3 class="header__tertiary">I am a software engineer 👨‍💻</h3>
-      <p class="header__para">I work with passion and love 🧡</p>
-    </header>
-    <main id="main">
-      <section class="info">
-        <div class="info__col info__col--1">
-          <div class="info-about">
-            <h2 class="info-about__title">About me</h2>
-            <p class="info-about__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, velit.</p>
+    <div class="container">
+      <header id="header">
+        <h1 class="header__primary">Tanbir Anjum</h1>
+        <h3 class="header__tertiary">I am a software engineer 👨‍💻</h3>
+        <p class="header__para">I work with passion and love 🧡</p>
+      </header>
+      <main id="main">
+        <section class="info">
+          <div class="info__col info__col--1">
+            <div class="info-about">
+              <h2 class="info-about__title">About me</h2>
+              <p class="info-about__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, velit.</p>
+            </div>
+            <div class="info-capab">
+              <h3 class="info-capab__title">Capabilites</h3>
+              <ul>
+                <li class="info-capab__list">HTML5 & CSS, SASS, Tailwind.css</li>
+                <li class="info-capab__list">Javascript</li>
+                <li class="info-capab__list">React.js, vue.js</li>
+                <li class="info-capab__list">Node.js, REST Api</li>
+                <li class="info-capab__list">MongoDB, SQL</li>
+              </ul>
+            </div>
           </div>
-          <div class="info-capab">
-            <h3 class="info-capab__title">Capabilites</h3>
-            <ul>
-              <li class="info-capab__list">HTML5 & CSS, SASS, Tailwind.css</li>
-              <li class="info-capab__list">Javascript</li>
-              <li class="info-capab__list">React.js, vue.js</li>
-              <li class="info-capab__list">Node.js, REST Api</li>
-              <li class="info-capab__list">MongoDB, SQL</li>
-            </ul>
+          <div class="info__col info__col--2">
+            <div class="info-wrap">
+              <img src="./me.jpg" alt="my image" class="info-wrap__img" />
+            </div>
           </div>
-        </div>
-        <div class="info__col info__col--2">
-          <div class="info-wrap">
-            <img src="./me.jpg" alt="my image" class="info-wrap__img" />
-          </div>
-        </div>
-      </section>
-    </main>
+        </section>
+      </main>
+    </div>
   </body>
 </html>

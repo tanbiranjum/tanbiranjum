@@ -1,6 +1,6 @@
 :root {
   --font-color--primary: #444;
-  --font-family-primary: 'Zen Antique', serif;
+  --font-family-primary: 'Space Mono', monospace;
 }
 
 *,
@@ -17,6 +17,14 @@ html {
 body {
   box-sizing: border-box;
   font-family: var(--font-family-primary);
+  background-color: rgb(219, 219, 219);
+}
+
+.container {
+  background-color: #fff;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 5rem;
 }
 
 /* HEADER SECION */
@@ -31,7 +39,6 @@ body {
   font-size: 3rem;
   text-transform: uppercase;
   font-weight: 500;
-  margin-top: 5rem;
 }
 
 .header__tertiary {
