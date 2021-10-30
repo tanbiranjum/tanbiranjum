@@ -38,7 +38,7 @@ body {
 .header__primary {
   font-size: 3rem;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .header__tertiary {
@@ -79,11 +79,23 @@ body {
 
 .info-about__title {
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .info-about__para {
   font-size: 1.5rem;
+}
+
+.info-about__link {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #1B9AAA;
+  padding: 0.5rem 0;
+}
+
+.info-about__link:hover {
+  text-decoration: underline;
 }
 
 .info-capab {
@@ -92,7 +104,7 @@ body {
 
 .info-capab__title {
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .info-capab__list {
