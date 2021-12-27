@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=tanbiranjum&label=Profile%20views&color=0e75b6&style=flat" alt="tanbiranjum" /> </p>
 
-- 🔭 I’m currently working on **Web3, Etherium, Hyperledger-Fabric**
+- 🔭 I’m currently working on **MERN PROJECT**
 
 - 🌱 I’m currently learning **Web3, D-APP, Hyperledger-Fabric**
 
